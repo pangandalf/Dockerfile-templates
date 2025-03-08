@@ -1,2 +1,15 @@
-# python-docker-app
-Test of how to create docker image from very simple python app
+# Dockerfiles templates
+A collection of ready-to-use `Dockerfile` templates for various technologies and use cases.
+
+#### Usage
+
+1. Go to directory with selected `Dockerfile`
+```bash
+cd path/to/Dockerfile
+```
+
+2. Build image
+```bash
+docker build -t tag .
+```
+
