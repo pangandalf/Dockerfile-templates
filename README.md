@@ -1,25 +1,29 @@
-# Dockerfiles templates
+# 🐳 Dockerfiles templates
 A collection of ready-to-use `Dockerfile` templates for various technologies and use cases.
 
-### Usage
+## 🚀 Usage
 
-1. Go to directory with selected `Dockerfile`
-```bash
-cd path/to/Dockerfile
-```
+1. Go to the directory with the selected `Dockerfile`:
+    ```bash
+    cd path/to/Dockerfile
+    ```
 
-2. Build image
-```bash
-docker build -t tag .
-```
+2. Build the image:
+    ```bash
+    docker build -t image_name:latest .
+    ```
 
-3. Create container
-```bash
-docker run -it [--network=none] -v [/path/on/host:/path/in/container] [--name name] image_name
-```
+3. Create and run a container:
+    ```bash
+    docker run -it \
+        --network=none \
+        -v /path/on/host:/path/in/container \
+        --name container_name \
+        image_name
+    ```
+    > Note: All flags are optional
 
-4. Start and enter (exec) container
-```bash
-docker start -ai container_name
-```
-
+4. Start and attach to an existing container:
+    ```bash
+    docker start -ai container_name
+    ```
