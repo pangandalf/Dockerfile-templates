@@ -27,3 +27,21 @@ A collection of ready-to-use `Dockerfile` templates for various technologies and
     ```bash
     docker start -ai container_name
     ```
+
+## 📁 Directory structure
+
+```text
+.
+├── debian/
+│   └── Dockerfile
+├── python/
+│   ├── app.py
+│   └── Dockerfile
+├── rockylinux/
+│   └── Dockerfile
+└── ubuntu/
+    ├── flusk/
+    │   └── Dockerfile
+    └── ns3/
+        └── Dockerfile
+```
