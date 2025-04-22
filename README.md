@@ -40,7 +40,7 @@ A collection of ready-to-use `Dockerfile` templates for various technologies and
 ├── rockylinux/
 │   └── Dockerfile
 └── ubuntu/
-    ├── flusk/
+    ├── flask/
     │   └── Dockerfile
     └── ns3/
         └── Dockerfile
