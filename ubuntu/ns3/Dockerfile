@@ -12,4 +12,3 @@ RUN wget https://www.nsnam.org/releases/ns-allinone-3.43.tar.bz2 && \
 WORKDIR /root/ns-allinone-3.43/ns-3.43
 RUN ./ns3 configure && ./ns3 build
 CMD ["/bin/bash"]
-

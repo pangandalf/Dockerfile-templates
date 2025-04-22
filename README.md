@@ -1,5 +1,5 @@
 # 🐳 Dockerfiles templates
-A collection of ready-to-use `Dockerfile` templates for various technologies and use cases.
+A collection of ready-to-use `Dockerfile` templates for various technologies and use cases
 
 ## 🚀 Usage
 
